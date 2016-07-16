@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">First_AndroidApp</string>
+    <string name="myscreen">Этот текст в майскрин хмл</string>
+    <string name="helloworld">Привет Мир!</string>
+    <string name="action_settings">settings</string>
+    <string name="action_item1">item1</string>
+    <string name="action_item2">item2</string>
+</resources>
