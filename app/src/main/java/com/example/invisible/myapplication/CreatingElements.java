@@ -55,13 +55,13 @@ public class CreatingElements extends AppCompatActivity implements View.OnClickL
         sbWeight.setOnSeekBarChangeListener(new OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                int wRight = seekBar.getMax() - progress;
+                int wLeft = seekBar.getMax() - progress;
 
-                lParams_btnAdd.width = progress;
-                lParams_btnClr.width = wRight;
+                lParams_btnAdd.weight = wLeft;
+                lParams_btnClr.weight = progress;
 
                 button_add.setText(String.valueOf(progress));
-                button_clear.setText(String.valueOf(wRight));
+                button_clear.setText(String.valueOf(wLeft));
 
             }
             @Override
