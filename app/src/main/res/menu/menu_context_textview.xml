@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/menu_context_red"
+        android:title="text color: Red"
+        android:orderInCategory="100"
+        />
+    <item
+        android:id="@+id/menu_context_green"
+        android:title="text color: Green"
+        android:orderInCategory="100"
+        />
+    <item
+        android:id="@+id/menu_context_blue"
+        android:title="text color: Blue"
+        android:orderInCategory="100"
+        />
+
+</menu>

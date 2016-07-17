@@ -15,6 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".CreatingElements">
+            <intent-filter>
+                <action android:name="android.intent.action.MyScreen" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
