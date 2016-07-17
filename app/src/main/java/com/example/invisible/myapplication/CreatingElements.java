@@ -62,7 +62,6 @@ public class CreatingElements extends AppCompatActivity implements View.OnClickL
 
                 button_add.setText(String.valueOf(progress));
                 button_clear.setText(String.valueOf(wLeft));
-
             }
             @Override
             public void onStartTrackingTouch(SeekBar seekBar) {
